@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply min-h-screen w-full bg-gradient-to-br from-[#020617] via-[#1e293b] to-[#0f172a] px-4 py-6
+  }
+}
